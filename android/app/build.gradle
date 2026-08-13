@@ -1,11 +1,11 @@
 plugins { id 'com.android.application' }
 
 android {
-    namespace 'com.grandbilliards.luxury'
+    namespace 'com.grandball.billiardspool'
     compileSdk 35
 
     defaultConfig {
-        applicationId 'com.grandbilliards.luxury'
+        applicationId 'com.grandball.billiardspool'
         minSdk 23
         targetSdk 35
         versionCode 1

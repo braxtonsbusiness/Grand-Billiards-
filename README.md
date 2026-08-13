@@ -44,7 +44,7 @@ Open `http://localhost:5173`, watch the simulated rewarded ad, then play the rac
 
 ## Install as an Android app
 
-This repository now includes a native Android WebView wrapper in `android/` that loads the same game from `android/app/src/main/assets/www/index.html`.
+This repository now includes a native Android WebView wrapper in `android/` that loads the same game from `android/app/src/main/assets/www/index.html`. The Android application ID/package name is `com.grandball.billiardspool`.
 
 ### Build a debug APK
 

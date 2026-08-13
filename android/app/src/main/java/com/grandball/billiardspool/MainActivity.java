@@ -1,4 +1,4 @@
-package com.grandbilliards.luxury;
+package com.grandball.billiardspool;
 
 import android.app.Activity;
 import android.os.Bundle;
