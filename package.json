@@ -1,0 +1,16 @@
+{
+  "name": "grand-billiards-luxury-8ball",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs --dist",
+    "check": "node --check src/main.js && node --check src/services/firebaseService.js && node --check src/services/rewardedAdService.js && node --check src/game/EightBallGame.js",
+    "android:sync": "node scripts/sync-android-assets.mjs",
+    "android:debug": "npm run android:sync && gradle assembleDebug"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
